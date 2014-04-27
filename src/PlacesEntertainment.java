@@ -1,22 +1,10 @@
-import java.util.Vector;
+package timeSpending;
 
 public class PlacesEntertainment extends Places {
 
-  public Integer typeT;
+	  public String timeSpendingInterval;
 
-  public Integer typeP;
+	  public void storePlace() {
+	  }
 
-  public Integer x;
-
-  public Integer y;
-
-  public Integer price;
-
-  public Integer mark;
-
-    public Vector  myPlaces;
-
-  public void storePlace() {
-  }
-
-}
+	}
