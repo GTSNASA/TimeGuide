@@ -1,31 +1,26 @@
-import java.util.Vector;
+package timeSpending;
 
 public class PlacesList {
 
-  public Integer place;
+	  public Integer id;
 
-    public Vector  myUser;
-    public Vector  myAOne-timeRequest;
-        public Vector  myPlacesList;
-    public Vector  myPlacesList;
-    public Vector  myHistory;
-  
-  public void showList() {
-  }
+	      
+	  public void showList() {
+	  }
 
-  public void showInformation() {
-  }
+	  public void showInformation() {
+	  }
 
-  public void sortPlaces() {
-  }
+	  public void sortPlaces() {
+	  }
 
-  public void calculateCoefficient() {
-  }
+	  public void calculateCoefficient() {
+	  }
 
-  public void getPlace() {
-  }
+	  public void getPlace() {
+	  }
 
-  public void calcDistance() {
-  }
+	  public void calcDistance() {
+	  }
 
-}
+	}
