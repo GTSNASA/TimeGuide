@@ -1,15 +1,19 @@
+package timeSpending;
+
 import java.util.Vector;
 
-public class Map {
+public class Map< E> {
 
   public Integer x;
 
   public Integer y;
 
-    public Vector  myPlacesList;
-    public Vector  myAOne-timeRequest;
+  public Integer id;
 
-  public void markPlace() {
+    public Vector< E>  myPlacesList;
+    public Vector< E>  myAOneTimeRequest;
+
+  public void markPlacesPoint() {
   }
 
   public void showMap() {
