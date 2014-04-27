@@ -1,14 +1,15 @@
+package timeSpending;
+
 import java.util.Vector;
 
-public class History {
+public class History<E> {
 
   public Integer visit;
 
-  public Integer place;
+  public Integer id;
 
-    public Vector  myPlacesList;
-    public Vector  myUser;
-    public Vector  myPlacesList;
+    public Vector< E>  myPlacesList;
+
 
   public void storeNumVisit() {
   }
@@ -16,7 +17,5 @@ public class History {
   public void addVisit() {
   }
 
-  public void newOperation() {
-  }
 
 }
