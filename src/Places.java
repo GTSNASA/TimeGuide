@@ -1,9 +1,25 @@
+package timeSpending;
+
 public class Places {
 
-  public Integer place;
+	  public Integer x;
 
-    
-  public void selectTypeOfPlace() {
-  }
+	  public Integer y;
 
-}
+	  public Integer price;
+
+	  public Integer mark;
+
+	  public String typePlace;
+
+	  public String nameOfPlace;
+
+	  public String addressOfPlace;
+
+	  public Integer id;
+
+	    
+	  public void selectTypeOfPlace() {
+	  }
+
+	}
