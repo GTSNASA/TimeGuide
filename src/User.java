@@ -1,53 +1,52 @@
-import java.util.Vector;
+package timeSpending;
+
+
 
 public class User {
 
-  public String Login;
+	  public String Login;
 
-  public Integer password;
+	  public Integer password;
 
-  public Integer k1;
+	  public Integer markBar;
 
-  public Integer k2;
+	  public Integer markCafe;
 
-  public Integer k3;
+	  public Integer markRestaraunt;
 
-  public Integer k4;
+	  public Integer markFastFood;
 
-  public Integer k5;
+	  public Integer markBilliards;
 
-  public Integer k6;
+	  public Integer markBowling;
 
-  public Integer k7;
+	  public Integer markClub;
 
-  public Integer k8;
+	  public Integer markTheatre;
 
-  public Integer k9;
+	  public Integer markCinema;
 
-  public Integer k10;
+	  public Integer markMuseum;
 
-  public Integer n1;
+	  public Integer markFoodItaly;
 
-  public Integer n2;
+	  public Integer markFoodFrance;
 
-  public Integer n3;
+	  public Integer markFoodJapan;
 
-  public Integer n4;
+	  public Integer markFoodChina;
 
-  public Integer n5;
+	  public Integer markFoodEurope;
 
-  public Integer n6;
+	  public Integer markFoodMexico;
 
-    public Vector  myAOne-timeRequest;
-        public Vector  myHistory;
+	  public static void GetRegistration() {
+	  }
+	  
+	  public void logIn() {
+	  }
 
-  public void GetRegistration() {
-  }
+	  public void changeInformation() {
+	  }
 
-  public void logIn() {
-  }
-
-  public void changeInformation() {
-  }
-
-}
+	}
