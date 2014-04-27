@@ -1,17 +1,20 @@
+package timeSpending;
+
 public class Admin {
+
 
   public Integer place;
 
- public void addPlace() {
-  }
+	  public void addPlace() {
+	  }
 
-  public void changeInformationPlace() {
-  }
+	  public void changeInformationPlace() {
+	  }
 
-  public void deletePlace() {
-  }
+	  public void deletePlace() {
+	  }
 
-  public void searchPlace() {
-  }
+	  public void searchPlace() {
+	  }
 
-}
+	}
