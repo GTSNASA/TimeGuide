@@ -7,10 +7,10 @@ TimeGuide
 
 
 ## Authors ##
-Гирявець Я.М.
-Кривошеєнко М.С.
-Мацюк І.В.
+1. Гирявець Я.М.
+2. Кривошеєнко М.С.
+3. Мацюк І.В.
 
 
 ## UML-diagram ##
-![UML](http://cs605620.vk.me/v605620112/6a10/KK55Jivx5Lo.jpg)
+![UML](http://cs605620.vk.me/v605620112/6a13/qgOjOc8hy5A.jpg)
