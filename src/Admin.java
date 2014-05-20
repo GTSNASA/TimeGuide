@@ -2,8 +2,7 @@ package timeSpending;
 
 public class Admin {
 
-
-  public Integer place;
+	  private Integer place;
 
 	  public void addPlace() {
 	  }
@@ -17,4 +16,14 @@ public class Admin {
 	  public void searchPlace() {
 	  }
 
-	}
+ // GETTER & SETTER
+
+    public Integer getPlace() {
+        return place;
+    }
+
+    public void setPlace(Integer place) {
+        this.place = place;
+    }
+////////////
+}
