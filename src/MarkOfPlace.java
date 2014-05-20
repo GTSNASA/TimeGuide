@@ -2,21 +2,61 @@ package timeSpending;
 
 import java.util.Vector;
 
-public class MarkOfPlace< E> {
+public class MarkOfPlace {
 
-  public Integer markUser;
+	  private Integer markUser;
 
-  public Integer id;
+	  public MarkOfPlace(Integer markUser) {
+		super();
+		this.markUser = markUser;
+	}
 
-    public Vector< E>  myPlacesList;
+	private Integer id;
+	  
 
-  public void estimatePlace() {
-  }
+	    private Vector<String>  myPlacesList;
 
-  public void calcNewMark() {
-  }
+	  public Integer estimatePlace(Integer mark) {
+		  
+		  setMarkUser(mark);
+		  return getMarkUser();
+	  }
 
-  public void saveMark() {
-  }
+	  public int calcNewMark(Places Place, Integer mark) {
+		  Place.setMarkPeople( Place.getMarkPeople() + 1 );
+		  return  (estimatePlace(mark) + (Place.getMarkPeople()-1)*Place.getMark()) / ( Place.getMarkPeople()) ;
+	  }
 
-}
+	  public void saveMark() {
+	  }
+
+	    // GETTER & SETTER
+
+	    public Integer getMarkUser() {
+	        return markUser;
+	    }
+
+	    public void setMarkUser(Integer markUser) {
+	        this.markUser = markUser;
+	    }
+
+	    public Integer getId() {
+	        return id;
+	    }
+
+	    public void setId(Integer id) {
+	        this.id = id;
+	    }
+
+	    public Vector<String> getMyPlacesList() {
+	        return myPlacesList;
+	    }
+
+	    public void setMyPlacesList(Vector<String> myPlacesList) {
+	        this.myPlacesList = myPlacesList;
+	    }
+	    ////////////////////////////////////
+
+
+	}
+
